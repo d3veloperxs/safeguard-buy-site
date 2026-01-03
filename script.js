@@ -1,4 +1,4 @@
-const API = "";
+const API = "https://safeguard-license-api-3.onrender.com";
 
 async function buy() {
   const res = await fetch(API + "/generate", {
