@@ -1,4 +1,4 @@
-const API = "https://JOUW-RENDER-URL";
+const API = "";
 
 async function buy() {
   const res = await fetch(API + "/generate", {
